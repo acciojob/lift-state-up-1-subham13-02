@@ -30,7 +30,7 @@ class Child extends Component {
       <div className="child">
         <h2>Child Component</h2>
         <button onClick={this.props.onButtonClick}>Show Modal</button>
-        {this.props.showModal && <div><h3>Model Component</h3><p>This is model component.</p></div>}
+        {this.props.showModal && <div><h3>Model Content</h3><p>This is model content.</p></div>}
       </div>
     );
   }
